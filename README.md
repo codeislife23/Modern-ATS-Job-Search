@@ -1,0 +1,125 @@
+# ATS Job Search
+
+A modern web application that helps job seekers search across multiple Applicant Tracking Systems (ATS) simultaneously. Built with React, TypeScript, and Tailwind CSS.
+
+![ATS Job Search Screenshot](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&auto=format&fit=crop&q=80)
+
+## Features
+
+- 🔍 Search across multiple ATS platforms simultaneously
+- 📍 Location-based job search support
+- 🎯 Advanced search operators for precise matching
+- ⚡ Fast and efficient search process
+- 🎨 Modern, responsive UI
+- 💻 Cross-browser compatibility
+
+## Search Operators
+
+- `" "` - Quotes for exact phrases (e.g., "Frontend Developer")
+- `( )` - Parentheses for grouping terms (e.g., (React OR Vue))
+- `NOT` - Exclude specific terms (e.g., Developer NOT Junior)
+- `AND` - Include all terms (e.g., React AND TypeScript)
+- `OR` - Include any terms (e.g., Remote OR Hybrid)
+
+## Tech Stack
+
+- **Frontend Framework:** React 18
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Icons:** Lucide React
+- **Build Tool:** Vite
+- **Development Tools:**
+  - ESLint for code linting
+  - TypeScript for type safety
+  - PostCSS for CSS processing
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm (v7 or higher)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd ats-job-search
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and visit `http://localhost:5173`
+
+## Project Structure
+
+```
+src/
+├── components/          # React components
+│   ├── JobSearchForm.tsx
+│   └── SearchTips.tsx
+├── data/               # Static data and configurations
+│   └── sites.ts
+├── types/              # TypeScript type definitions
+│   └── index.ts
+├── App.tsx            # Main application component
+└── main.tsx          # Application entry point
+```
+
+## Usage
+
+1. Enter your desired job title (use search operators for precise matching)
+2. (Optional) Specify a location or leave blank for remote positions
+3. Select one or more ATS platforms to search
+4. Click "Search Jobs" to open search results in new tabs
+
+### Search Examples
+
+- Basic: `"Frontend Developer"`
+- Advanced: `"Senior Developer" AND (React OR Vue) NOT WordPress`
+- Location-specific: `"Software Engineer" AND "San Francisco"`
+
+## Supported ATS Platforms
+
+- Lever (lever.co)
+- Greenhouse (greenhouse.io)
+- Workday (myworkdayjobs.com)
+- Taleo (taleo.net)
+- Ashby (jobs.ashby.com)
+
+## Development
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+### Coding Standards
+
+- TypeScript for type safety
+- ESLint for code quality
+- Modular component architecture
+- Responsive design principles
+
+## License
+
+MIT License - feel free to use this project for personal or commercial purposes.
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
