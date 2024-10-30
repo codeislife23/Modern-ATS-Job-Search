@@ -2,7 +2,7 @@
 
 A modern web application that helps job seekers search across multiple Applicant Tracking Systems (ATS) simultaneously. Built with React, TypeScript, and Tailwind CSS.
 
-![ATS Job Search Screenshot](https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&auto=format&fit=crop&q=80)
+
 
 ## Features
 
